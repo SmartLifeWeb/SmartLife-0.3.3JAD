@@ -1,11 +1,10 @@
 <%-- 
-    Document   : InicioUsuario
-    Created on : 29/09/2017, 07:17:45 AM
-    Author     : Alumno
+    Document   : chat
+    Created on : 7/11/2017, 08:50:56 PM
+    Author     : angel
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hola <c:out value="${nombre}" /></h1>
-        
+        <TEXTAREA COLS=100% ROWS=100% NAME="Texto">
+            
+        </TEXTAREA>     
     </body>
 </html>
